@@ -34,7 +34,7 @@
         "parameters" : [ {
           "name" : "test",
           "in" : "query",
-          "description" : "Run in test mode",
+          "description" : "Run in test mode.",
           "required" : false,
           "explode" : false,
           "schema" : {
@@ -44,6 +44,17 @@
         "responses" : {
           "200" : {
             "description" : "successful operation",
+            "content" : {
+              "text/html" : {
+                "schema" : {
+                  "type" : "string",
+                  "example" : "xxxxxx"
+                }
+              }
+            }
+          },
+          "default" : {
+            "description" : "Unexpected error",
             "content" : {
               "text/html" : {
                 "schema" : {
