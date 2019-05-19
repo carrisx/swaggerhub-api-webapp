@@ -7,10 +7,12 @@
   "info" : {
     "description" : "This is the CarRisX.com web application URL API documentation.\n",
     "version" : "1.0.0",
-    "title" : "CarRisX WebApp",
+    "title" : "CarRisX WebApp URL API (c) 2019 CarRisX.com",
     "termsOfService" : "https://carrisx.com/th/en/terms/",
     "contact" : {
-      "email" : "office@carrisx.com"
+      "name" : "CarRisX.com",
+      "email" : "office@carrisx.com",
+      "url" : "https://www.carrisx.com/th/en"
     },
     "license" : {
       "name" : "Apache 2.0",
