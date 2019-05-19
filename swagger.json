@@ -39,7 +39,9 @@
           "required" : false,
           "explode" : false,
           "schema" : {
-            "type" : "boolean"
+            "type" : "boolean",
+            "default" : false,
+            "example" : 1
           }
         } ],
         "responses" : {
