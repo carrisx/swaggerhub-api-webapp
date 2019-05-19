@@ -37,12 +37,12 @@
         "parameters" : [ {
           "name" : "test",
           "in" : "query",
-          "description" : "Run in test mode.",
+          "description" : "Run in test mode, set to true, false if not specified.",
           "required" : false,
           "explode" : false,
           "schema" : {
             "type" : "boolean",
-            "default" : null,
+            "default" : false,
             "example" : false
           }
         } ],
