@@ -43,7 +43,7 @@
           "schema" : {
             "type" : "boolean",
             "default" : false,
-            "example" : true
+            "example" : null
           }
         } ],
         "responses" : {
