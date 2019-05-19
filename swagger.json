@@ -42,7 +42,7 @@
           "explode" : false,
           "schema" : {
             "type" : "boolean",
-            "default" : false,
+            "default" : 0,
             "example" : 1
           }
         } ],
@@ -53,6 +53,7 @@
               "text/html" : {
                 "schema" : {
                   "type" : "string",
+                  "format" : "html",
                   "example" : "<!doctype html><html><head></head><body></body></html>"
                 }
               }
