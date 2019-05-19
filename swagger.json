@@ -39,11 +39,26 @@
           "in" : "query",
           "description" : "Run in test mode, set to true, false if not specified.",
           "required" : false,
-          "explode" : true,
           "schema" : {
             "type" : "boolean",
-            "default" : false,
-            "example" : null
+            "default" : false
+          }
+        }, {
+          "name" : "debug",
+          "in" : "query",
+          "description" : "Show the debugInfo part of the form.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "insClass",
+          "in" : "query",
+          "description" : "The preselected insurance class.",
+          "required" : false,
+          "schema" : {
+            "type" : "enum"
           }
         } ],
         "responses" : {
