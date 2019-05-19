@@ -61,6 +61,15 @@
             "type" : "string",
             "enum" : [ 1, 2, "2+", 3, "3+", "cmi", "other" ]
           }
+        }, {
+          "name" : "insClassDisabled",
+          "in" : "query",
+          "description" : "Specifies if the insurance class selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
         } ],
         "responses" : {
           "200" : {
