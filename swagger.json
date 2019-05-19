@@ -39,7 +39,7 @@
           "in" : "query",
           "description" : "Run in test mode, set to true, false if not specified.",
           "required" : false,
-          "explode" : false,
+          "explode" : true,
           "schema" : {
             "type" : "boolean",
             "default" : false,
