@@ -58,7 +58,8 @@
           "description" : "The preselected insurance class.",
           "required" : false,
           "schema" : {
-            "type" : "enum"
+            "type" : "string",
+            "enum" : [ 1, 2, "2+", 3, "3+", "cmi", "other" ]
           }
         } ],
         "responses" : {
