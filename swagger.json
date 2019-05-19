@@ -1,0 +1,60 @@
+{
+  "openapi" : "3.0.0",
+  "servers" : [ {
+    "url" : "https://www.carrisx.com/th/en",
+    "description" : "Live Server"
+  } ],
+  "info" : {
+    "description" : "This is the CarRisX.com web application URL API documentation.\n",
+    "version" : "1.0.0",
+    "title" : "CarRisX WebApp",
+    "termsOfService" : "https://carrisx.com/th/en/terms/",
+    "contact" : {
+      "email" : "office@carrisx.com"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "tags" : [ {
+    "name" : "WebApp",
+    "description" : "Root",
+    "externalDocs" : {
+      "description" : "Find out more",
+      "url" : "https://www.carrisx.com/th/en"
+    }
+  } ],
+  "paths" : {
+    "/" : {
+      "get" : {
+        "tags" : [ "WebApp" ],
+        "summary" : "Start the comparison application.",
+        "operationId" : "start",
+        "parameters" : [ {
+          "name" : "test",
+          "in" : "query",
+          "description" : "Run in test mode",
+          "required" : false,
+          "explode" : false,
+          "schema" : {
+            "type" : "boolean"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "text/html" : {
+                "schema" : {
+                  "type" : "string",
+                  "example" : "xxxxxx"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
