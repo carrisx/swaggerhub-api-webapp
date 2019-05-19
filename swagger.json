@@ -53,7 +53,7 @@
               "text/html" : {
                 "schema" : {
                   "type" : "string",
-                  "example" : "xxxxxx"
+                  "example" : "<!doctype html><html><head></head><body></body></html>"
                 }
               }
             }
