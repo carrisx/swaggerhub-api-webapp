@@ -29,6 +29,7 @@
     "/" : {
       "get" : {
         "tags" : [ "WebApp" ],
+        "description" : "Loads the application.",
         "summary" : "Start the comparison application.",
         "operationId" : "start",
         "parameters" : [ {
