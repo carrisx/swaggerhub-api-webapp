@@ -42,8 +42,8 @@
           "explode" : false,
           "schema" : {
             "type" : "boolean",
-            "default" : 0,
-            "example" : 1
+            "default" : false,
+            "example" : true
           }
         } ],
         "responses" : {
