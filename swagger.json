@@ -5,8 +5,8 @@
     "description" : "Live Server"
   } ],
   "info" : {
-    "description" : "This is the CarRisX.com web application URL API documentation.\n",
-    "version" : "1.0.0",
+    "description" : "This is the CarRisX.com web application URL API parameter documentation.\n",
+    "version" : "1.0.1",
     "title" : "CarRisX WebApp URL API (c) 2019 CarRisX.com",
     "termsOfService" : "https://www.carrisx.com/en/terms",
     "contact" : {
@@ -23,7 +23,7 @@
     "name" : "WebApp",
     "description" : "Root",
     "externalDocs" : {
-      "description" : "Find out more",
+      "description" : "Find out more at",
       "url" : "https://www.carrisx.com/en"
     }
   } ],
