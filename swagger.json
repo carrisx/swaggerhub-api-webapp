@@ -1,14 +1,14 @@
 {
   "openapi" : "3.0.0",
   "servers" : [ {
-    "url" : "https://www.carrisx.com/th/en",
+    "url" : "https://www.carrisx.com/en",
     "description" : "Live Server"
   } ],
   "info" : {
     "description" : "This is the CarRisX.com web application URL API documentation.\n",
     "version" : "1.0.0",
     "title" : "CarRisX WebApp URL API (c) 2019 CarRisX.com",
-    "termsOfService" : "https://carrisx.com/th/en/terms/",
+    "termsOfService" : "https://carrisx.com/en/terms/",
     "contact" : {
       "name" : "CarRisX.com",
       "email" : "office@carrisx.com",
@@ -24,7 +24,7 @@
     "description" : "Root",
     "externalDocs" : {
       "description" : "Find out more",
-      "url" : "https://www.carrisx.com/th/en"
+      "url" : "https://www.carrisx.com/en"
     }
   } ],
   "paths" : {
