@@ -70,6 +70,127 @@
             "type" : "boolean",
             "default" : false
           }
+        }, {
+          "name" : "regYear",
+          "in" : "query",
+          "description" : "The preselected cars first registration year.",
+          "required" : false,
+          "schema" : {
+            "type" : "string",
+            "enum" : [ 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 ]
+          }
+        }, {
+          "name" : "regYearDisabled",
+          "in" : "query",
+          "description" : "Specifies if the year selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "regBrand",
+          "in" : "query",
+          "description" : "The preselected car brand.",
+          "required" : false,
+          "schema" : {
+            "type" : "string",
+            "enum" : [ "TOYO", "HOND" ]
+          }
+        }, {
+          "name" : "regBrandDisabled",
+          "in" : "query",
+          "description" : "Specifies if the car brand selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "regType",
+          "in" : "query",
+          "description" : "The preselected car type.",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "regTypeDisabled",
+          "in" : "query",
+          "description" : "Specifies if the car type selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "regModel",
+          "in" : "query",
+          "description" : "The preselected car model.",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "regModelDisabled",
+          "in" : "query",
+          "description" : "Specifies if the car model selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "partner",
+          "in" : "query",
+          "description" : "The predefined partner email address.",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "partnerDisabled",
+          "in" : "query",
+          "description" : "Specifies if the partner control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "insurer",
+          "in" : "query",
+          "description" : "The predefined insurer",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "insurerDisabled",
+          "in" : "query",
+          "description" : "Specifies if the insurer control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "product",
+          "in" : "query",
+          "description" : "The predefined product.",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "productDisabled",
+          "in" : "query",
+          "description" : "Specifies if the product control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
         } ],
         "responses" : {
           "200" : {
