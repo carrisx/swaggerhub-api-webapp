@@ -5,7 +5,7 @@
     "description" : "Live Server"
   } ],
   "info" : {
-    "description" : "This is the CarRisX.com web application URL API parameter documentation.Future extensions will enable switches for: screenshot, line info, tel info, mail info, FB link, Twitter link, API link, Language selection and list of languages, Logo and Logo change, Testimonila, Copyright, Terms, Privacy, Heading, Subtext and CSS overrides with custom CSS files\n",
+    "description" : "This is the CarRisX.com web application URL API parameter documentation. Future extensions will enable switches for: screenshot, line info, tel info, mail info, FB link, Twitter link, API link, language selection and list of languages, Logo and Logo change, testimonial, copyright, terms, privacy, heading text, subtext and CSS overrides with custom CSS files\n",
     "version" : "1.0.1",
     "title" : "CarRisX WebApp URL API (c) 2019 CarRisX.com",
     "termsOfService" : "https://www.carrisx.com/en/terms",
