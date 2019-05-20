@@ -59,7 +59,8 @@
           "required" : false,
           "schema" : {
             "type" : "string",
-            "enum" : [ 1, 2, "2+", 3, "3+", "cmi", "other" ]
+            "enum" : [ 1, 2, "2+", 3, "3+", "cmi", "other" ],
+            "example" : 1
           }
         }, {
           "name" : "insClassDisabled",
@@ -77,7 +78,8 @@
           "required" : false,
           "schema" : {
             "type" : "string",
-            "enum" : [ 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 ]
+            "enum" : [ 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 ],
+            "example" : 2019
           }
         }, {
           "name" : "regYearDisabled",
@@ -95,7 +97,8 @@
           "required" : false,
           "schema" : {
             "type" : "string",
-            "enum" : [ "TOYO", "HOND" ]
+            "enum" : [ "TOYO", "HOND" ],
+            "example" : "TOYO"
           }
         }, {
           "name" : "regBrandDisabled",
@@ -112,7 +115,8 @@
           "description" : "The preselected car type.",
           "required" : false,
           "schema" : {
-            "type" : "string"
+            "type" : "string",
+            "example" : "Avanza"
           }
         }, {
           "name" : "regTypeDisabled",
@@ -129,7 +133,8 @@
           "description" : "The preselected car model.",
           "required" : false,
           "schema" : {
-            "type" : "string"
+            "type" : "string",
+            "example" : "Avanza_E_7st_Auto_4sp_RWD HATCHBACK 1300cc 4 doors"
           }
         }, {
           "name" : "regModelDisabled",
@@ -146,7 +151,8 @@
           "description" : "The predefined partner email address.",
           "required" : false,
           "schema" : {
-            "type" : "string"
+            "type" : "string",
+            "example" : "x@x.com"
           }
         }, {
           "name" : "partnerDisabled",
@@ -163,7 +169,8 @@
           "description" : "The predefined insurer",
           "required" : false,
           "schema" : {
-            "type" : "string"
+            "type" : "string",
+            "example" : "axa"
           }
         }, {
           "name" : "insurerDisabled",
@@ -180,7 +187,8 @@
           "description" : "The predefined product.",
           "required" : false,
           "schema" : {
-            "type" : "string"
+            "type" : "string",
+            "example" : "prod1"
           }
         }, {
           "name" : "productDisabled",
