@@ -32,7 +32,7 @@
       "get" : {
         "tags" : [ "WebApp" ],
         "description" : "Loads the application.",
-        "summary" : "Start the comparison application. Click here to open the parameters documentation.",
+        "summary" : "Start the comparison application.",
         "operationId" : "start",
         "parameters" : [ {
           "name" : "test",
