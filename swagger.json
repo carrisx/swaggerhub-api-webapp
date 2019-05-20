@@ -19,10 +19,6 @@
       "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "externalDocs" : {
-    "description" : "Try our URL API Tester !",
-    "url" : "https://www.carrisx.com/en/sim"
-  },
   "tags" : [ {
     "name" : "WebApp",
     "description" : "Root",
