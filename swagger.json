@@ -27,6 +27,10 @@
       "url" : "https://www.carrisx.com/en"
     }
   } ],
+  "externalDocs" : {
+    "description" : "List of provinces in Thailand and their short names (Abbr.) for the province parameter",
+    "url" : "https://en.wikipedia.org/wiki/Provinces_of_Thailand"
+  },
   "paths" : {
     "/" : {
       "get" : {
@@ -169,8 +173,8 @@
           "required" : false,
           "schema" : {
             "type" : "string",
-            "enum" : [ "x", "y", "z" ],
-            "example" : "z"
+            "enum" : [ "ACR", "ATG", "AYA", "BKK", "BKN", "BRM", "CCO", "CNT", "CPM", "CTI", "CMI", "CRI", "CBI", "CPN", "KSN", "KPT", "KRI", "KKN", "KBI", "LPG", "LPN", "LEI", "LRI", "MSN", "MKM", "NYK", "NPT", "NPM", "NMA", "NSN", "NRT", "NAN", "NWT", "NBP", "NKI", "NBI", "SKW", "MDH", "YST", "PTE", "PTN", "PNA", "PLG", "PYO", "PNB", "PBI", "PCT", "PLK", "PRE", "PKT", "PRI", "PKN", "RNG", "RBR", "RYG", "RET", "SNK", "SPK", "SKN", "SKM", "SRI", "STN", "SBR", "SSK", "SKA", "STI", "SPB", "SNI", "SRN", "TAK", "TRG", "TRT", "UBN", "UDN", "UTI", "UTD", "YLA" ],
+            "example" : "CBI"
           }
         }, {
           "name" : "provinceDisabled",
