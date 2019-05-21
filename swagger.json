@@ -182,6 +182,16 @@
             "default" : false
           }
         }, {
+          "name" : "usage",
+          "in" : "query",
+          "description" : "Specifies how the car is used.",
+          "required" : false,
+          "schema" : {
+            "type" : "string",
+            "enum" : [ "personal", "commercial" ],
+            "example" : "personal"
+          }
+        }, {
           "name" : "usageDisabled",
           "in" : "query",
           "description" : "Specifies if the car usage selection control is disabled, false if not specified.",
@@ -189,6 +199,14 @@
           "schema" : {
             "type" : "boolean",
             "default" : false
+          }
+        }, {
+          "name" : "includeCMI",
+          "in" : "query",
+          "description" : "Specifies if CMI insurance should be included.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean"
           }
         }, {
           "name" : "includeCMIDisabled",
