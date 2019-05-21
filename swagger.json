@@ -37,7 +37,7 @@
         "parameters" : [ {
           "name" : "test",
           "in" : "query",
-          "description" : "Run in test mode, set to true, false if not specified.",
+          "description" : "Run in test mode, set to true to mark the transmitted data as test data, false if not specified.",
           "required" : false,
           "schema" : {
             "type" : "boolean",
