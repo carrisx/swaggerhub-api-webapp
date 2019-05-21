@@ -146,6 +146,60 @@
             "default" : false
           }
         }, {
+          "name" : "dashCam",
+          "in" : "query",
+          "description" : "Specifies if the car has a dash cam.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean"
+          }
+        }, {
+          "name" : "dashCamDisabled",
+          "in" : "query",
+          "description" : "Specifies if the car ash cam selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "province",
+          "in" : "query",
+          "description" : "Specifies in which province the car is registered.",
+          "required" : false,
+          "schema" : {
+            "type" : "string",
+            "enum" : [ "x", "y", "z" ],
+            "example" : "z"
+          }
+        }, {
+          "name" : "provinceDisabled",
+          "in" : "query",
+          "description" : "Specifies if the car registration province selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "usageDisabled",
+          "in" : "query",
+          "description" : "Specifies if the car usage selection control is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
+          "name" : "includeCMIDisabled",
+          "in" : "query",
+          "description" : "Specifies if the selection control for CMI inclusion is disabled, false if not specified.",
+          "required" : false,
+          "schema" : {
+            "type" : "boolean",
+            "default" : false
+          }
+        }, {
           "name" : "partner",
           "in" : "query",
           "description" : "The predefined partner email address.",
