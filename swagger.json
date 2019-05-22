@@ -101,7 +101,7 @@
           "required" : false,
           "schema" : {
             "type" : "string",
-            "enum" : [ "TOYO", "HOND" ],
+            "enum" : [ "TOYO", "HOND", "NISS", "ISUZ", "MITS", "FORD", "CHEV", "SUZU", "ASTO", "AUDI", "BENT", "BMW", "CHEV", "CITR", "DFM", "FERR", "FIAT", "FORD", "FOTO", "HOND", "HYUN", "ISUZ", "JAGU", "KIA", "LAMB", "LAND", "LEXU", "LOTU", "MASE", "MAXU", "MAZD", "MCLA", "MERC", "MG", "MINI", "MITS", "NISS", "PEUG", "PORS", "PROT", "ROLL", "SKOD", "SSAN", "SUBA", "SUZU", "TATA", "TOYO", "TR", "VOLK", "VOLV" ],
             "example" : "TOYO"
           }
         }, {
